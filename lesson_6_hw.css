@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box; }
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px; }
+
+body,
+ul,
+ol,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  padding: 0; }
+
+ul,
+ol {
+  list-style: none; }
+
+body {
+  min-height: 100vh; }
+
+.banner {
+  display: flex;
+  justify-content: center;
+  background: #f8f8f8; }
+
+.page {
+  width: 100%;
+  max-width: 1200px;
+  height: 550px;
+  background-image: url(./Images/featured-image-header.jpg);
+  background-size: 1200px, 550px;
+  display: flex;
+  justify-content: center;
+  color: white; }
+  .page_content {
+    width: 100%;
+    max-width: 1000px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .page_titel {
+    width: 500px;
+    margin-bottom: 30px; }
+    .page_titel_menu {
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 40px; }
+    .page_titel_item {
+      margin-right: 10px; }
+    .page_titel_link {
+      text-decoration: none;
+      font-size: 14px;
+      color: white; }
+      .page_titel_link:hover {
+        color: #ff0079; }
+  .page_nav {
+    display: flex;
+    justify-content: space-between;
+    height: 60px; }
+  .page_menu {
+    display: flex;
+    justify-content: space-between; }
+  .page_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; }
+  .page_button {
+    padding: 8px;
+    border-top-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    color: white;
+    margin-right: 10px; }
+    .page_button:hover {
+      color: #ff0079;
+      box-shadow: 0 6px 35px 0 #ff0077;
+      border: 1px solid #ff0079; }
+
+.page2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: #f8f8f8; }
+  .page2_content {
+    width: 100%;
+    max-width: 1000px;
+    height: 60px; }
+  .page2_nav {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    border-bottom: 2px solid #dfdfdf; }
+    .page2_nav_item {
+      width: 120px; }
+    .page2_nav_link {
+      display: block;
+      height: 100%;
+      line-height: 40px;
+      text-align: center;
+      color: #80818a;
+      text-decoration: none; }
+      .page2_nav_link:hover {
+        color: #ff0079;
+        border-bottom: 2px solid #ff0079; }
+
+.movie {
+  width: 100%;
+  max-width: 1000px;
+  height: 100%;
+  display: flex;
+  justify-content: space-between; }
+  .movie_box {
+    width: 20%;
+    height: 315px;
+    box-shadow: 0 10px 35px 0 rgba(0, 0, 0, 0.2); }
+    .movie_box:hover {
+      box-shadow: 0 6px 35px 0 #ff0077; }
+    .movie_box_img {
+      width: 100%;
+      height: 250px;
+      margin-bottom: 10px; }
+    .movie_box_text1 {
+      margin-left: 10px;
+      text-decoration: none;
+      color: var(--slate-two); }
+    .movie_box_text2 {
+      font-size: 12px;
+      margin-left: 10px;
+      margin-top: 5px;
+      opacity: 0.5; }
+
+.end {
+  width: 100%;
+  max-width: 1000px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/*# sourceMappingURL=lesson_6_hw.css.map */
